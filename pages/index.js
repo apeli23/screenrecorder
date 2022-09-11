@@ -64,7 +64,7 @@ function Home() {
     return (
         <div>
         <h1 className='elegantshadow'>Screen  Recorder</h1>
-        
+        <h2>cssdsdd</h2>
         <video ref={videoRef} className="video" width="600px" src={ link && link } controls></video><br/>
         <button onClick={recordHandler} className="record-btn">record</button>
     </div>
